@@ -1,5 +1,4 @@
 {
-  "extends": "stylelint-config-standard",
   "rules": {
     "color-hex-case": "lower",
     "color-hex-length": "long",
@@ -29,7 +28,11 @@
     "value-list-max-empty-lines": 1,
     "shorthand-property-no-redundant-values": true,
     "property-case": "lower",
-    "property-no-unknown": true,
+    "property-no-unknown": [true, {
+      "ignoreProperties": [
+        "composes"
+      ]
+    }],
     "property-no-vendor-prefix": true,
 
     "declaration-bang-space-after": "never",

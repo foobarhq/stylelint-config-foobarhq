@@ -4,8 +4,5 @@
   "description": "Our internal stylelint config at FoobarHQ",
   "main": "index.json",
   "author": "Guylian Cox <gc@madkings.com>",
-  "license": "MIT",
-  "dependencies": {
-    "stylelint-config-standard": "^16.0.0"
-  }
+  "license": "MIT"
 }
