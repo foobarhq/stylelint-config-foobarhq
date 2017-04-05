@@ -1,5 +1,5 @@
 {
-  "name": "stylelint-config-foobarhq",
+  "name": "@foobarhq/stylelint-config",
   "version": "1.0.0",
   "description": "Our internal stylelint config at FoobarHQ",
   "main": "index.json",
