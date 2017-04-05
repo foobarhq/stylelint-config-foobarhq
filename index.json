@@ -6,12 +6,12 @@
     "font-family-no-duplicate-names": true,
     "function-calc-no-unspaced-operator": true,
     "function-comma-newline-after": "always-multi-line",
-    "function-comma-space-after": "always",
+    "function-comma-space-after": "always-single-line",
     "function-comma-space-before": "never",
     "function-linear-gradient-no-nonstandard-direction": true,
     "function-max-empty-lines": 1,
     "function-name-case": "lower",
-    "function-parentheses-space-inside": "never",
+    "function-parentheses-space-inside": "never-single-line",
     "function-url-quotes": "always",
     "function-whitespace-after": "always",
     "number-leading-zero": "always",
@@ -65,9 +65,7 @@
     "selector-descendant-combinator-no-non-space": true,
     "selector-no-vendor-prefix": true,
     "selector-pseudo-class-case": "lower",
-    "selector-pseudo-class-no-unknown": [true, {
-      "ignorePseudoClasses": ["global"]
-    }],
+
     "selector-pseudo-class-parentheses-space-inside": "never",
 
     "selector-pseudo-element-case": "lower",
@@ -78,7 +76,7 @@
     "selector-max-empty-lines": 0,
     "selector-list-comma-newline-after": "always-multi-line",
     "selector-list-comma-newline-before": "never-multi-line",
-    "selector-list-comma-space-after": "always",
+    "selector-list-comma-space-after": "always-single-line",
     "selector-list-comma-space-before": "never",
 
     "media-feature-colon-space-after": "always",
@@ -98,7 +96,6 @@
     }],
     "at-rule-name-case": "lower",
     "at-rule-name-space-after": "always",
-    "at-rule-no-unknown": true,
     "at-rule-no-vendor-prefix": true,
     "at-rule-semicolon-newline-after": "always",
 
@@ -114,9 +111,12 @@
     "max-line-length": [170, {
       "ignore": ["comments"]
     }],
-    "no-descending-specificity": true,
     "no-extra-semicolons": true,
     "no-invalid-double-slash-comments": true,
-    "no-missing-end-of-source-newline": true
+    "no-missing-end-of-source-newline": true,
+
+    "selector-pseudo-class-no-unknown": null,
+    "at-rule-no-unknown": null,
+    "no-descending-specificity": null
   }
 }
