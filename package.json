@@ -1,6 +1,6 @@
 {
   "name": "@foobarhq/stylelint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Our internal stylelint config at FoobarHQ",
   "main": "index.json",
   "author": "Guylian Cox <gc@madkings.com>",
