@@ -74,7 +74,7 @@
     "selector-type-case": "lower",
     "selector-type-no-unknown": true,
     "selector-max-empty-lines": 0,
-    "selector-list-comma-newline-after": "always-multi-line",
+    "selector-list-comma-newline-after": "always",
     "selector-list-comma-newline-before": "never-multi-line",
     "selector-list-comma-space-after": "always-single-line",
     "selector-list-comma-space-before": "never",
@@ -91,7 +91,7 @@
     "media-query-list-comma-space-before": "never",
 
     "at-rule-empty-line-before": ["always", {
-      "except": ["first-nested"],
+      "except": ["blockless-after-same-name-blockless", "first-nested"],
       "ignore": ["after-comment"]
     }],
     "at-rule-name-case": "lower",
@@ -100,7 +100,6 @@
     "at-rule-semicolon-newline-after": "always",
 
     "comment-empty-line-before": ["always", {
-      "except": ["first-nested"],
       "ignore": ["after-comment"]
     }],
     "comment-no-empty": true,
@@ -117,6 +116,11 @@
 
     "selector-pseudo-class-no-unknown": null,
     "at-rule-no-unknown": null,
-    "no-descending-specificity": null
+    "no-descending-specificity": null,
+
+    "rule-empty-line-before": ["always", {
+      "ignore": ["after-comment"],
+      "except": ["first-nested"]
+    }]
   }
 }
