@@ -123,7 +123,7 @@ module.exports = {
     "at-rule-semicolon-newline-after": "always",
     "at-rule-no-unknown": [true, {
       // SCSS at rules
-      "ignoreAtRules": ["include", "value", "mixin", "function", "if", "return"]
+      "ignoreAtRules": ["include", "value", "mixin", "function", "if", "return", "use"]
     }],
     "comment-empty-line-before": ["always", {
       "ignore": ["after-comment"]
