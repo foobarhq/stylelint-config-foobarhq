@@ -1,8 +1,8 @@
 {
   "name": "@foobarhq/stylelint-config",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Our internal stylelint config at FoobarHQ",
   "main": "index.js",
-  "author": "Guylian Cox <gc@madkings.com>",
+  "author": "Guylian Cox <hello@guylian.me>",
   "license": "MIT"
 }
